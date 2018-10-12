@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bio Eng Web Dev</title>
+  </head>
+  <body>
+      <h1>Hello World</h1>
+          <!--new header type, number determines size of header-->
+      <p>This is my Web Page!</p> <br/>
+          <!--this is a new paragraph-->
+      <a href="https://google.com">Bring me to Google.</a> <br/>
+          <!--this is to add a new link, put the link-->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Polar_Bear_-_Alaska_%28cropped%29.jpg/220px-Polar_Bear_-_Alaska_%28cropped%29.jpg" alt="No image">
+        <!--to add a photo, in src either give the link to the image or the path of the image from your computer-->
+        <!--if browser not able to find the image of link but will show text no image-->
+      <ul>  <!--this is to create a list: with bullet points-->
+            <li>Item 1</li> <!--every item has to be in between li-->
+            <li>Item 2</li>
+            <li><a href="https://youtube.com">Take me to Youtube!</a></li> <!--link in the list-->
+      </ul>
+      <form class="" action="index.html" method="post"> <!--start with form opening and then add the items-->
+        <!--to create a form, need different element: input, select, textarea, button, label, validation-->
+          <label for="username">Username</label> <!--this creates a label for the input username and then write the name of the field-->
+          <input type="text" name="username" value="" placeholder="Enter username"> <!--here the type is text (can be email, password with dots...)then write the text and here no value-->
+            <!--placeholder is to name the field: it appears inside the box-->
+          <label for="password">Password</label>
+          <input type="password" name="password" value="" placeholder="Enter password"> <!--just this creates a box but no title to the box-->
+          <select class="" name="gender"> <!--user able to select from options displayed-->
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+          </select>
+          <button type="submit" name="submit">Submit</button> <!--submit button, need to be defined to go to a new page-->
+      </form>
+  </body>
+</html>
